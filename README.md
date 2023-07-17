@@ -20,5 +20,25 @@ The stats.py subpackage contains statistical analysis functions. It includes fun
 **math.py:**
 The math.py subpackage provides mathematical functions commonly used in machine learning. It includes functions for calculating distances, performing hypothesis tests, and working with covariance matrices.
 
+To use any of the sub packages, import the desired functions into your code. 
+
+``` python
+from MLXpress.iris import classification, vis
+from sklearn.tree import DecisionTreeClassifier
+
+# Create a classification model
+model = DecisionTreeClassifier()
+
+# Perform classification
+classification(model)
+
+# Visualize the data
+vis(model)
+```
+
+
+Do not refrain from using the inbuilt help() function,whenever stuck:
+```python
+help(scale_data)```
 
 
